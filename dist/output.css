@@ -591,8 +591,20 @@ video {
   flex-direction: row;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .bg-amber-100 {
