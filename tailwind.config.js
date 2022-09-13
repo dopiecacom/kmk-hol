@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}","./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      textColor:{
+        'dupa':'#ff0000'
+      }
+
+    },
   },
   plugins: [],
 }
